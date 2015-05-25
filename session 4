@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int id;
+    bool male;
+    string advisor;
+    Student (string n, int i, bool m = true);
+    //void Study();
+    //void DoHomework();
+    //bool Register(string className);
+    //bool ChangeAdvisor(string name);
+    
+};
+class Faculty {
+public:
+
+    string name;
+    int id;
+    string office;
+    string email;
+    string tele;
+    bool male;
+    Faculty (string n, bool male = true, string office = "n/a", string email = "n/a",
+             string tele = "n/a");
+    
+    
+    void Teach(){
+        
+    }
+    void Advise(){
+        
+    }
+};
+
+int main(){
+    Student s1("Trevor Shaw", 1540106);
+    //s1.advisor = "Pete Tucker";
+    //s1.DoHomework();
+    
+   // Faculty f1 ("Lyle Cochran");
+    //Faculty f2 ("Pete Tucker", "Eric Jonston 310", "ptucker");
+  
+      
+    
+    
+    
+}
